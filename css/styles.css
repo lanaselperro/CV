@@ -1,0 +1,158 @@
+/* Besides the GLOBAL section, the CSS file is organized to
+follow the same elements order found on the HTML file. */
+
+/*---GLOBAL---*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+/*---NAVIGATION BAR SECTION---*/
+.contactBar {
+  background-color: #2994B2;
+  color: #FFFBE0;
+}
+
+.contactText {
+  position: relative;
+  top: 15px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.far, .fas, .fab {
+  font-size: 1.8rem;
+  color: #FFFBE0;
+}
+
+.pdfBtn {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #FFFBE0;
+  border-color: #FFFBE0;
+}
+
+/*---PERSONAL DATA SECTION---*/
+.leftColumn {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.simpleContainer {
+  border-style: solid;
+  border-radius: 33px;
+  border-color: #2994B2;
+  padding: 0;
+  border-top-style: none;
+  margin: 10px 0;
+}
+
+.squareColor {
+  width: inherit;
+  height: 125px;
+  background-color: #2994B2;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  z-index: -1;
+}
+
+.photoDiv {
+  text-align: center;
+}
+
+.foto {
+  position: relative;
+  z-index: 1;
+  top: -75px;
+  border-radius: 100%;
+}
+
+.myName {
+  font-family: 'Domine', serif;
+  font-size: 2.2rem;
+  position: relative;
+  bottom: 30px;
+  padding: 0 5px;
+}
+
+.secondaryContainer {
+  border-style: solid;
+  border-radius: 33px;
+  border-color: #D3DEDC;
+  margin: 10px 0;
+  padding: 15px 30px;
+}
+
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+
+.normalData{
+  padding-left: 10px;
+}
+
+.dataItem {
+  text-transform: capitalize;
+}
+
+/*---WORKING EXPERIENCE AND STUDIES SECTIONS---*/
+.rightColumn {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.card {
+  margin: 5px;
+}
+
+.card-title {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/*---CLIENTS SECTION---*/
+#myClients {
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media (max-width: 600px) {
+  #myClients {
+    width: auto;
+    margin: 0.5%;
+  }
+}
+
+.clientLogo {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---FOOTER SECTION---*/
+#footerInfo {
+  background-color: #FFB400;
+}
+
+.socialNetwork {
+  text-align: center;
+}
+
+.socialLink {
+  font-size: 4rem;
+  margin: 10px 10px;
+}
