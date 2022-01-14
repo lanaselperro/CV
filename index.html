@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Miguel Angel Briceño</title>
+  <link rel="icon" href="img\favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Domine:wght@700&family=Montserrat:wght@300&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/f4c5dc1231.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section id="menuHead">
+    <!-- Navbar for contact -->
+    <nav class="navbar navbar-expand-lg navbar-light contactBar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <span class="contactText">Contactame:</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:compumastercap@gmail.com?subject=Contacto de tu CV"><i class="far fa-envelope"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.me/573142800135"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tel:+573142800135"><i class="fas fa-phone"></i></a>
+            </li>
+            <li>
+              <button class="btn btn-outline-light pdfBtn" type="button" onclick="window.open('CV.pdf')">Descarga el PDF</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Data Section -->
+  <section id="personalData">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 leftColumn">
+          <div class="row">
+            <div class="simpleContainer">
+              <div class="squareColor"></div>
+              <div class="photoDiv">
+                <img class="foto" src="img/miguel.jpg" alt="foto3x4">
+                <h1 class="myName">Miguel Angel Briceño Osorio</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="secondaryContainer">
+              <h2 class="subtitle">Datos personales</h2>
+              <p class="normalData"><span class="dataItem">Fecha y lugar de nacimiento: </span>23 de noviembre de 1983 - Bogotá, Colombia.</p>
+              <p class="normalData"><span class="dataItem">Estado civil: </span>Casado.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="secondaryContainer">
+              <h2 class="subtitle">Sobre mi</h2>
+              <p class="normalData">Inicié mi carrera como Técnico Laboral de Sistemas
+                haciendo soporte al software y hardware de diferentes entidades, experiencia
+                 que me ayudó a desarrollar diferentes habilidades que me permitirían dar
+                 el salto como emprendedor y freelance.</p>
+              <p class="normalData">Nunca he dejado de trabajar ni de aprender cosas nuevas,
+                 por eso retorné al área de la programación y el desarrollo web, en el cual me
+                 desempeño ahora.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="secondaryContainer table-responsive">
+              <h2 class="subtitle">Habilidades</h2>
+              <table class="table table-borderless">
+                <tr>
+                  <td><label>Inglés</label></td>
+                  <td><progress class="learningBar" max="100" value="75"></progress></td>
+                </tr>
+                <tr>
+                  <td><label>Hardware</label></td>
+                  <td><progress class="learningBar" max="100" value="95"></progress></td>
+                </tr>
+                <tr>
+                  <td><label>Software</label></td>
+                  <td><progress class="learningBar" max="100" value="90"></progress></td>
+                </tr>
+                <tr>
+                  <td><label>HTML5</label></td>
+                  <td><progress class="learningBar" max="100" value="70"></progress></td>
+                </tr>
+                <tr>
+                  <td><label>CSS3</label></td>
+                  <td><progress class="learningBar" max="100" value="60"></progress></td>
+                </tr>
+                <tr>
+                  <td><label>JavaScript</label></td>
+                  <td><progress class="learningBar" max="100" value="10"></progress></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 rightColumn">
+          <div class="row">
+            <!-- Working Experience -->
+            <div class="cardsContainer secondaryContainer">
+              <h2 class="subtitle">Experiencia Laboral</h2>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Compumaster Capital</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">2019 - actualmente.</h6>
+                  <p class="card-text">Como profesional independiente ofrezco servicios de
+                    mantenimiento preventivo y correctivo de hardware, desarrollo de software,
+                    asesorías personalizadas y demás tareas referentes al campo de las TI.</p>
+                  <a href="https://www.compumastercapital.com/" target="_blank" class="btn btn-outline-dark">Ir a la web</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Alta Tecnología</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">2017 - 2019</h6>
+                  <p class="card-text">Soporte técnico a usuario final, mantenimiento de
+                    hardware y software, administración de correo electrónico y hosting,
+                    programación de backups, inventario y adecuación de cableado en oficinas.</p>
+                  <a href="https://linkedin.com/in/alta-tecnologia-65187b83" target="_blank" class="btn btn-outline-dark">Ir a la web</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Electrosistemas ltda.</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">2004 - 2017</h6>
+                  <p class="card-text">Mesa de ayuda, mantenimiento correctivo de hardware
+                    y software, soporte a usuario final, inventario.</p>
+                  <a href="https://www.electrosistemas.com.co/" target="_blank" class="btn btn-outline-dark">Ir a la web</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <!-- Studies Section -->
+            <div class="cardsContainer secondaryContainer">
+              <h2 class="subtitle">Estudios</h2>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Udemy</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Actualmente</h6>
+                  <p class="card-text">Desarrollador Web (HTML-CSS-JS)</p>
+                  <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" class="btn btn-outline-dark">Ir a la web</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Amecorp</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Finalizado en junio de 2003</h6>
+                  <p class="card-text">Inglés nivel C1.</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Instituto Colombiano de Aprendizaje</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Finalizado en diciembre del 2002</h6>
+                  <p class="card-text">Técnico Laboral en Sistemas.</p>
+                  <a href="https://www.incap.edu.co/" target="_blank" class="btn btn-outline-dark">Ir a la web</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Instituto Pio XII</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Finalizado en diciembre del 2000</h6>
+                  <p class="card-text">Bachiller Académico.</p>
+                  <a href="https://www.institutopioxii.com/" target="_blank" class="btn btn-outline-dark">Ir a la web</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section id="myClients">
+    <div class="secondaryContainer table-responsive">
+      <h2 class="subtitle">Clientes</h2>
+      <table class="table table-borderless">
+        <tr>
+          <td><a href="https://kappa10.com/" target="_blank"><img src="img/kappa10.png" class="d-block w-100 clientLogo" alt="Kappa10"></a></td>
+          <td><a href="http://biosigma.com.co/" target="_blank"><img src="img/biosigma.jpg" class="d-block w-100 clientLogo" alt="Biosigma"></a></td>
+          <td><a href="https://www.facebook.com/Sportland-Colombia-100386778348856/" target="_blank"><img src="img/sportland.jpg" class="d-block w-100 clientLogo" alt="SportLand"></a></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footerInfo">
+    <div class="footerElements">
+      <div class="socialNetwork">
+        <a target="_blank" href="https://www.facebook.com/mabo544/"><i class="fab fa-facebook-square socialLink"></i></a>
+        <a target="_blank" href="https://twitter.com/BricenoMabo544"><i class="fab fa-twitter-square socialLink"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mabo544/"><i class="fab fa-linkedin socialLink"></i></a>
+        <a target="_blank" href="https://www.instagram.com/compumastercap/?hl=es-la"><i class="fab fa-instagram-square socialLink"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS and Bundle from Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
