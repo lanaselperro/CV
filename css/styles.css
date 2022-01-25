@@ -7,6 +7,12 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-device-width: 640px) {
+  body {
+    font-size: 2em;
+  }
+}
+
 /*---NAVIGATION BAR SECTION---*/
 .contactBar {
   background-color: #2994B2;
@@ -25,7 +31,7 @@ body {
 }
 
 .far, .fas, .fab {
-  font-size: 1.8rem;
+  font-size: 1.8em;
   color: #FFFBE0;
 }
 
@@ -37,6 +43,11 @@ body {
 }
 
 /*---PERSONAL DATA SECTION---*/
+.container {
+  margin: 3% auto;
+  padding: 1% auto;
+}
+
 .leftColumn {
   padding-left: 3%;
   padding-right: 3%;
@@ -74,7 +85,7 @@ body {
 
 .myName {
   font-family: 'Domine', serif;
-  font-size: 2.2rem;
+  font-size: 2.2em;
   position: relative;
   bottom: 30px;
   padding: 0 5px;
@@ -90,7 +101,7 @@ body {
 
 .subtitle {
   font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: capitalize;
   padding-left: 10px;
 }
@@ -116,7 +127,7 @@ body {
 .card-title {
   font-family: 'Cinzel', serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 /*---CLIENTS SECTION---*/
@@ -153,6 +164,6 @@ body {
 }
 
 .socialLink {
-  font-size: 4rem;
+  font-size: 4em;
   margin: 10px 10px;
 }
